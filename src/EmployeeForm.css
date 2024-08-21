@@ -1,0 +1,43 @@
+.employee-form {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+  .forms{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .employee-form h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    width: 90%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group input, select{
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  .error-message{
+    color: red;
+  }
+  .errors{
+    border-color: red;
+  }
+  .submit-btn{
+    margin-left: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(38, 193, 38);
+    color: white;
+  }
